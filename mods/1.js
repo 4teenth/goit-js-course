@@ -130,5 +130,3 @@
 // add(10, 1, 2, 3);
 // add(15, 1, 2, 3, 4, 5);
 // ---------
-const [grapes, oranges, apples] = [10, 2];
-console.log(grapes);
