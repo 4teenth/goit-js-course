@@ -1,4 +1,4 @@
-// ----callback(он без вывова внутри, без () .)
+// ----callback(он без вызова внутри, без () .)
 
 // function calc(a, b, cllbck) {
 //   return cllbck(a, b);
