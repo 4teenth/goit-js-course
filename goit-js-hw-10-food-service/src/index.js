@@ -35,7 +35,7 @@ reloadTheme();
 // Changer theme--------------------
 
 function themeChanger() {
-  if (activeTheme === Theme.LIGHT || activeTheme === null) {
+  if (activeTheme === Theme.LIGHT) {
     refs.body.classList.add(Theme.DARK);
     refs.body.classList.remove(Theme.LIGHT);
     localStorage.setItem('theme', Theme.DARK);
