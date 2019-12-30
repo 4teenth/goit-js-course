@@ -10,6 +10,7 @@ inputValue.addEventListener('input', handlerInput);
 function handlerInput(elem) {
   if (elem.currentTarget.value === '') {
     spanOutputValue.textContent = 'незнакомец';
+    return;
   }
   spanOutputValue.textContent = elem.currentTarget.value;
 }
